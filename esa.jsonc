@@ -1,0 +1,8 @@
+{
+  "name": "libretv",
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "assets": {
+    "directory": "./.next/standalone"
+  }
+}
