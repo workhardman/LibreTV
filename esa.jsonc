@@ -1,7 +1,7 @@
 {
   "name": "libretv",
   "installCommand": "npm install",
-  "buildCommand": "npm install shx --save-dev && npm run build && shx cp -r public .next/standalone/ && shx cp -r .next/static .next/standalone/.next/",
+  "buildCommand": "npm run build && cp -r public .next/standalone/ && cp -r .next/static .next/standalone/.next/",
   "startCommand": "node .next/standalone/server.js",
   "entry": "./.next/standalone/server.js",
   "assets": {
